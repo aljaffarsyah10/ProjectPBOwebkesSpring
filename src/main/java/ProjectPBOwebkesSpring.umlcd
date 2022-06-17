@@ -1,0 +1,1430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_bstZ8O3vEeyvMKuFqR3PiA">
+  <modelElement href="ProjectPBOwebkesSpring.uml#_cw6B4O3vEeyvMKuFqR3PiA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eoDJsO3vEeyvMKuFqR3PiA" sourceAnchor="342.0,0.0" targetAnchor="270.0,0.0" target="_ewEdQO3vEeyvMKuFqR3PiA" source="_eoE-4O3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_dpcMYO3vEeyvMKuFqR3PiA"/>
+    <bendpoints xmi:id="_fkQTQO3vEeyvMKuFqR3PiA" sourceY="-340" targetX="-728" targetY="-157"/>
+    <bendpoints xmi:id="_fkSIcO3vEeyvMKuFqR3PiA" sourceX="728" sourceY="-340" targetY="-157"/>
+    <stereotypes xmi:id="_eoDwwO3vEeyvMKuFqR3PiA" name="Reference">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dpl9YO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eoDwwe3vEeyvMKuFqR3PiA" text="">
+      <visualProperties xmi:id="_fkdHkO3vEeyvMKuFqR3PiA" position="-374.6511723446657,277.1778507012392"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eoDwwu3vEeyvMKuFqR3PiA" aggregationKind="NONE" name="">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dpcMYe3vEeyvMKuFqR3PiA"/>
+      <visualProperties xmi:id="_fkZdMe3vEeyvMKuFqR3PiA" position="3.9840741483311604,-70.12999098210739"/>
+      <visibility xmi:id="_eoDww-3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eoDwxO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eoDwxe3vEeyvMKuFqR3PiA" aggregationKind="NONE" name="patientService" navigable="true">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_da-5oO3vEeyvMKuFqR3PiA"/>
+      <visualProperties xmi:id="_fkeVsO3vEeyvMKuFqR3PiA" position="-761.305093186339,92.25650901783052"/>
+      <visibility xmi:id="_eoDwxu3vEeyvMKuFqR3PiA" label="-"/>
+      <cardinality xmi:id="_eoEX0O3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eow7YO3vEeyvMKuFqR3PiA" sourceAnchor="437.0,86.0" targetAnchor="279.0,64.0" target="_ewEdQO3vEeyvMKuFqR3PiA" source="_eo43MO3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_dlKwYO3vEeyvMKuFqR3PiA"/>
+    <bendpoints xmi:id="_fkSvgO3vEeyvMKuFqR3PiA" sourceX="695" targetX="21" targetY="473"/>
+    <bendpoints xmi:id="_fkTWkO3vEeyvMKuFqR3PiA" sourceX="695" sourceY="-473" targetX="21"/>
+    <nameVisual xmi:id="_eo1z4O3vEeyvMKuFqR3PiA" text="">
+      <visualProperties xmi:id="_fkj1QO3vEeyvMKuFqR3PiA" position="-651.7452338848256,237.36525834447514"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eo1z4e3vEeyvMKuFqR3PiA" aggregationKind="NONE" name="allPatients" navigable="true">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c8vecO3vEeyvMKuFqR3PiA"/>
+      <visualProperties xmi:id="_fkhZAO3vEeyvMKuFqR3PiA" position="13.842684423328365,-11.436972632345828"/>
+      <visibility xmi:id="_eo3pEO3vEeyvMKuFqR3PiA" label="~"/>
+      <cardinality xmi:id="_eo3CAO3vEeyvMKuFqR3PiA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eo2a8O3vEeyvMKuFqR3PiA" aggregationKind="NONE" name="">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dlL-gO3vEeyvMKuFqR3PiA"/>
+      <visualProperties xmi:id="_fkj1Qe3vEeyvMKuFqR3PiA" position="-623.7618530025813,462.41466286413606"/>
+      <visibility xmi:id="_eo4QIe3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eo4QIO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_epn3AO3vEeyvMKuFqR3PiA" sourceAnchor="84.0,0.0" targetAnchor="162.0,71.0" target="_etrQkO3vEeyvMKuFqR3PiA" source="_epoeEO3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_dpmkcO3vEeyvMKuFqR3PiA"/>
+    <stereotypes xmi:id="_epn3Ae3vEeyvMKuFqR3PiA" name="Reference">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dpugQO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_epn3Au3vEeyvMKuFqR3PiA" text="">
+      <visualProperties xmi:id="_fkrKAO3vEeyvMKuFqR3PiA" position="-26.180884345874915,-7.622150451810441"/>
+    </nameVisual>
+    <sourceRole xmi:id="_epn3A-3vEeyvMKuFqR3PiA" aggregationKind="NONE" name="">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dpmkce3vEeyvMKuFqR3PiA"/>
+      <visualProperties xmi:id="_fknfoO3vEeyvMKuFqR3PiA" position="-18.49500156190925,-76.62245835891373"/>
+      <visibility xmi:id="_epn3BO3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_epn3Be3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_epn3Bu3vEeyvMKuFqR3PiA" aggregationKind="NONE" name="userService" navigable="true">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dfN5YO3vEeyvMKuFqR3PiA"/>
+      <visualProperties xmi:id="_fksYIO3vEeyvMKuFqR3PiA" position="-48.96974191956639,37.42243880616866"/>
+      <visibility xmi:id="_epn3B-3vEeyvMKuFqR3PiA" label="-"/>
+      <cardinality xmi:id="_epn3CO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eqSlYO3vEeyvMKuFqR3PiA" sourceAnchor="101.0,0.0" targetAnchor="0.0,75.0" target="_eqTMcO3vEeyvMKuFqR3PiA" source="_erBlMO3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_dk64wO3vEeyvMKuFqR3PiA"/>
+    <bendpoints xmi:id="_fkUksO3vEeyvMKuFqR3PiA" sourceY="-172" targetX="-552"/>
+    <nameVisual xmi:id="_eqSlYe3vEeyvMKuFqR3PiA" text="">
+      <visualProperties xmi:id="_fkzs4O3vEeyvMKuFqR3PiA" position="-5.982882897055788,42.87855107315832"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eqSlYu3vEeyvMKuFqR3PiA" name="roles" navigable="true">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dgCYwO3vEeyvMKuFqR3PiA"/>
+      <visualProperties xmi:id="_fkvbcO3vEeyvMKuFqR3PiA" position="-25.220423239129104,-82.27898257720042"/>
+      <visibility xmi:id="_eqSlY-3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eqSlZO3vEeyvMKuFqR3PiA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eqSlZe3vEeyvMKuFqR3PiA" aggregationKind="NONE" name="">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dk31cO3vEeyvMKuFqR3PiA"/>
+      <visualProperties xmi:id="_fk0T8O3vEeyvMKuFqR3PiA" position="-567.8398079942556,-33.47742060315662"/>
+      <visibility xmi:id="_eqSlZu3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eqSlZ-3vEeyvMKuFqR3PiA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_etzzcO3vEeyvMKuFqR3PiA" sourceAnchor="408.0,154.0" targetAnchor="121.0,88.0" target="_etcAAO3vEeyvMKuFqR3PiA" source="_euLm4O3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_dpvHUO3vEeyvMKuFqR3PiA"/>
+    <bendpoints xmi:id="_fkVy0O3vEeyvMKuFqR3PiA" sourceY="293" targetX="869" targetY="502"/>
+    <bendpoints xmi:id="_fkWZ4O3vEeyvMKuFqR3PiA" sourceX="-869" sourceY="293" targetY="502"/>
+    <stereotypes xmi:id="_et9kcO3vEeyvMKuFqR3PiA" name="Reference">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dp2cEO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_et8WUO3vEeyvMKuFqR3PiA" text="">
+      <visualProperties xmi:id="_fk5zgO3vEeyvMKuFqR3PiA" position="411.52646050803025,-262.51585059383984"/>
+    </nameVisual>
+    <sourceRole xmi:id="_et89YO3vEeyvMKuFqR3PiA" aggregationKind="NONE" name="">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dpvHUe3vEeyvMKuFqR3PiA"/>
+      <visualProperties xmi:id="_fk4lYO3vEeyvMKuFqR3PiA" position="-16.7146215716308,21.175974508780428"/>
+      <visibility xmi:id="_euESIO3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_euDrEO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_et89Ye3vEeyvMKuFqR3PiA" aggregationKind="NONE" name="userRepository" navigable="true">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dfeYEO3vEeyvMKuFqR3PiA"/>
+      <visualProperties xmi:id="_fk6akO3vEeyvMKuFqR3PiA" position="812.6809730112194,227.0719941461299"/>
+      <visibility xmi:id="_euESIu3vEeyvMKuFqR3PiA" label="-"/>
+      <cardinality xmi:id="_euESIe3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_et4r8O3vEeyvMKuFqR3PiA" sourceAnchor="131.0,0.0" targetAnchor="63.0,71.0" dashed="true" superClass="_etrQkO3vEeyvMKuFqR3PiA" subClass="_euLm4O3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_dSP0YO3vEeyvMKuFqR3PiA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_et9kce3vEeyvMKuFqR3PiA" source="_euLm4O3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_dp3DIO3vEeyvMKuFqR3PiA"/>
+    <stereotypes xmi:id="_euGuYO3vEeyvMKuFqR3PiA" name="Reference">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dp--8O3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_euE5MO3vEeyvMKuFqR3PiA" text=""/>
+    <sourceRole xmi:id="_euFgQO3vEeyvMKuFqR3PiA" aggregationKind="NONE" name="">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dp3DIe3vEeyvMKuFqR3PiA"/>
+      <visibility xmi:id="_euH8gO3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_euHVcO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_euFgQe3vEeyvMKuFqR3PiA" aggregationKind="NONE" name="passwordEncoder" navigable="true">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dffmMO3vEeyvMKuFqR3PiA"/>
+      <visibility xmi:id="_euH8gu3vEeyvMKuFqR3PiA" label="-"/>
+      <cardinality xmi:id="_euH8ge3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_euyq4O3vEeyvMKuFqR3PiA" sourceAnchor="0.0,64.0" targetAnchor="0.0,36.0" target="_etrQkO3vEeyvMKuFqR3PiA" source="_eu8b4O3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_dp_mAO3vEeyvMKuFqR3PiA"/>
+    <bendpoints xmi:id="_fkXoAO3vEeyvMKuFqR3PiA" sourceX="-165" targetX="-333" targetY="614"/>
+    <bendpoints xmi:id="_fkYPEO3vEeyvMKuFqR3PiA" sourceX="-165" sourceY="-614" targetX="-333"/>
+    <stereotypes xmi:id="_eu2VQe3vEeyvMKuFqR3PiA" name="Reference">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dqG6wO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eu1uMO3vEeyvMKuFqR3PiA" text="">
+      <visualProperties xmi:id="_fk-sAO3vEeyvMKuFqR3PiA" position="144.91194769848107,293.0247749007333"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eu1uMe3vEeyvMKuFqR3PiA" aggregationKind="NONE" name="">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dp_mAe3vEeyvMKuFqR3PiA"/>
+      <visualProperties xmi:id="_fk8PwO3vEeyvMKuFqR3PiA" position="-51.65733489148886,-32.43125245278247"/>
+      <visibility xmi:id="_eu5_oO3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eu5YkO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eu2VQO3vEeyvMKuFqR3PiA" aggregationKind="NONE" name="userService" navigable="true">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dfipgO3vEeyvMKuFqR3PiA"/>
+      <visualProperties xmi:id="_fk_TEO3vEeyvMKuFqR3PiA" position="-169.65991072291467,582.2087089224565"/>
+      <visibility xmi:id="_eu6msO3vEeyvMKuFqR3PiA" label="-"/>
+      <cardinality xmi:id="_eu5_oe3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ewU78O3vEeyvMKuFqR3PiA" sourceAnchor="478.0,113.0" targetAnchor="57.0,44.0" target="_ev8hcO3vEeyvMKuFqR3PiA" source="_ewfUAO3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_dqHh0O3vEeyvMKuFqR3PiA"/>
+    <bendpoints xmi:id="_fkY2IO3vEeyvMKuFqR3PiA" sourceX="226" targetY="168"/>
+    <stereotypes xmi:id="_ewZ0ce3vEeyvMKuFqR3PiA" name="Reference">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dqXZcO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ewZNYO3vEeyvMKuFqR3PiA" text="">
+      <visualProperties xmi:id="_flC9cO3vEeyvMKuFqR3PiA" position="-249.33056736695153,-4.489382647722209"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ewZNYe3vEeyvMKuFqR3PiA" aggregationKind="NONE" name="">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dqHh0e3vEeyvMKuFqR3PiA"/>
+      <visualProperties xmi:id="_flCWYO3vEeyvMKuFqR3PiA" position="35.796840860382076,-13.615721055080826"/>
+      <visibility xmi:id="_ewde0e3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_ewde0O3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ewZ0cO3vEeyvMKuFqR3PiA" aggregationKind="NONE" name="patientRepository" navigable="true">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dhGvwO3vEeyvMKuFqR3PiA"/>
+      <visualProperties xmi:id="_flDkgO3vEeyvMKuFqR3PiA" position="-328.03354669338694,154.4858135614325"/>
+      <visibility xmi:id="_ewde0-3vEeyvMKuFqR3PiA" label="-"/>
+      <cardinality xmi:id="_ewde0u3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ewWxIO3vEeyvMKuFqR3PiA" sourceAnchor="478.0,83.0" targetAnchor="270.0,128.0" dashed="true" superClass="_ewEdQO3vEeyvMKuFqR3PiA" subClass="_ewfUAO3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_dVHiMO3vEeyvMKuFqR3PiA"/>
+    <bendpoints xmi:id="_fkZdMO3vEeyvMKuFqR3PiA" sourceX="68" targetY="162"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ehPXEO3vEeyvMKuFqR3PiA" name="ProjectPBOwebkesSpringApplication">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_c2dQQO3vEeyvMKuFqR3PiA"/>
+    <visualProperties xmi:id="_ehP-IO3vEeyvMKuFqR3PiA" position="30.0,30.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ehWEwO3vEeyvMKuFqR3PiA" name="LegacyStyledElement">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c3Ap4O3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ehWEwe3vEeyvMKuFqR3PiA" name="Annotations">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c4l-QO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <visibility xmi:id="_ehWEwu3vEeyvMKuFqR3PiA" label="+"/>
+    <operations xmi:id="_ehWEw-3vEeyvMKuFqR3PiA" name="main" staticOperation="true">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c4G2EO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_ehWExO3vEeyvMKuFqR3PiA" name="StyledElement">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c4hs0O3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_ehWExe3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_ehWExu3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ehWEx-3vEeyvMKuFqR3PiA" name="args">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c4TDUO3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_ehWr0O3vEeyvMKuFqR3PiA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_ehWr0e3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eoE-4O3vEeyvMKuFqR3PiA" name="PatientController" associationsOut="_eoDJsO3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_c4vIMO3vEeyvMKuFqR3PiA"/>
+    <visualProperties xmi:id="_eoE-4e3vEeyvMKuFqR3PiA" position="-80.0,193.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eoE-4u3vEeyvMKuFqR3PiA" name="LegacyStyledElement">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c4xkcO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_eoE-4-3vEeyvMKuFqR3PiA" name="Annotations">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c48jkO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <visibility xmi:id="_eoE-5O3vEeyvMKuFqR3PiA" label="+"/>
+    <attributes xmi:id="_eoE-5e3vEeyvMKuFqR3PiA" name="patientService">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_da-5oO3vEeyvMKuFqR3PiA"/>
+      <visibility xmi:id="_eoE-5u3vEeyvMKuFqR3PiA" label="-"/>
+      <cardinality xmi:id="_eoE-5-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_eoE-6O3vEeyvMKuFqR3PiA" name="PatientService">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c8tCMO3vEeyvMKuFqR3PiA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eoE-6e3vEeyvMKuFqR3PiA" name="PatientController">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dIjs4O3vEeyvMKuFqR3PiA"/>
+      <keywords xmi:id="_eoE-6u3vEeyvMKuFqR3PiA" keyword="create"/>
+      <stereotypes xmi:id="_eoE-6-3vEeyvMKuFqR3PiA" name="StyledElement">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dImwMO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eoE-7O3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eoE-7e3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eoE-7u3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dIliEO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_eoE-7-3vEeyvMKuFqR3PiA" name="PatientController">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c4vIMO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eoE-8O3vEeyvMKuFqR3PiA" name="patientService">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dIkT8O3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eoE-8e3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eoE-8u3vEeyvMKuFqR3PiA" name="PatientService">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c8tCMO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eoE-8-3vEeyvMKuFqR3PiA" name="savePatient">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dIn-UO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eoE-9O3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dIrBoO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eoE-9e3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eoE-9u3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eoE-9-3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dIpMcO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_eoE--O3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eoE--e3vEeyvMKuFqR3PiA" name="patient">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dIolYO3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eoE--u3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eoE---3vEeyvMKuFqR3PiA" name="Patient">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c5PegO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eoE-_O3vEeyvMKuFqR3PiA" name="listPatients">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dVcSUO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eoE-_e3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dVeukO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eoE-_u3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eoE-_-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eoE_AO3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dVdgcO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_eoE_Ae3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eoE_Au3vEeyvMKuFqR3PiA" name="model">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dVc5YO3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eoE_A-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eoE_BO3vEeyvMKuFqR3PiA" name="Model">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dHt_Ye3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eoE_Be3vEeyvMKuFqR3PiA" name="createPatientForm">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dVf8sO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eoE_Bu3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dVhx4O3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eoE_B-3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eoE_CO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eoE_Ce3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dVgjwO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_eoE_Cu3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eoE_C-3vEeyvMKuFqR3PiA" name="model">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dVf8se3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eoE_DO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eoE_De3vEeyvMKuFqR3PiA" name="Model">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dHt_Ye3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eoE_Du3vEeyvMKuFqR3PiA" name="editPatientForm">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dWQxsO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eoE_D-3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dWUcEO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eoE_EO3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eoE_Ee3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eoE_Eu3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dWR_0O3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_eoE_E-3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eoE_FO3vEeyvMKuFqR3PiA" name="id">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dWRYwO3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eoE_Fe3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eoE_Fu3vEeyvMKuFqR3PiA" name="Long">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dV9Pse3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eoE_F-3vEeyvMKuFqR3PiA" name="model">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dWRYwe3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eoE_GO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eoE_Ge3vEeyvMKuFqR3PiA" name="Model">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dHt_Ye3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eoE_Gu3vEeyvMKuFqR3PiA" name="updatePatient">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dWVqMO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eoE_G-3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dWZUkO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eoE_HO3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eoE_He3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eoFl8O3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dWW4UO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_eoFl8e3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eoFl8u3vEeyvMKuFqR3PiA" name="id">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dWVqMe3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eoFl8-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eoFl9O3vEeyvMKuFqR3PiA" name="Long">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dV9Pse3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eoFl9e3vEeyvMKuFqR3PiA" name="patient">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dWWRQO3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eoFl9u3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eoFl9-3vEeyvMKuFqR3PiA" name="Patient">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c5PegO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eoFl-O3vEeyvMKuFqR3PiA" name="model">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dWWRQe3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eoFl-e3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eoFl-u3vEeyvMKuFqR3PiA" name="Model">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dHt_Ye3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eoFl--3vEeyvMKuFqR3PiA" name="deletePatient">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dWbJwO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eoFl_O3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dWdmAO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eoFl_e3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eoFl_u3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eoFl_-3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dWcX4O3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_eoFmAO3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eoFmAe3vEeyvMKuFqR3PiA" name="id">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dWbw0O3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eoFmAu3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eoFmA-3vEeyvMKuFqR3PiA" name="Long">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dV9Pse3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eo43MO3vEeyvMKuFqR3PiA" name="Patient" associationsOut="_eow7YO3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_c5PegO3vEeyvMKuFqR3PiA"/>
+    <visualProperties xmi:id="_eo43Me3vEeyvMKuFqR3PiA" position="-112.0,461.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eo43Mu3vEeyvMKuFqR3PiA" name="Table">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c5xC8O3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_eo43M-3vEeyvMKuFqR3PiA" name="JPA1StyledElement">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c5zfMO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <visibility xmi:id="_eo43NO3vEeyvMKuFqR3PiA" label="+"/>
+    <attributes xmi:id="_eo43Ne3vEeyvMKuFqR3PiA" name="id">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dd6R0O3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eo43Nu3vEeyvMKuFqR3PiA" name="PrimaryKey">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_deI7UO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eo43N-3vEeyvMKuFqR3PiA" name="GeneratedValueMapping">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_deJiYO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eo43OO3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eo43Oe3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_eo43Ou3vEeyvMKuFqR3PiA" name="Long">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dV9Pse3vEeyvMKuFqR3PiA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eo43O-3vEeyvMKuFqR3PiA" name="name">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_deuKIO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eo43PO3vEeyvMKuFqR3PiA" name="Column">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_de1e4O3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eo43Pe3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eo43Pu3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_eo43P-3vEeyvMKuFqR3PiA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eo43QO3vEeyvMKuFqR3PiA" name="profession">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_de6XYO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eo43Qe3vEeyvMKuFqR3PiA" name="Column">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dfBsIO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eo43Qu3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eo43Q-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_eo43RO3vEeyvMKuFqR3PiA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eo43Re3vEeyvMKuFqR3PiA" name="complaint">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dfDhUO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eo43Ru3vEeyvMKuFqR3PiA" name="Column">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dfLdIO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eo43R-3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eo43SO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_eo43Se3vEeyvMKuFqR3PiA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eo43Su3vEeyvMKuFqR3PiA" name="Patient">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c52igO3vEeyvMKuFqR3PiA"/>
+      <keywords xmi:id="_eo43S-3vEeyvMKuFqR3PiA" keyword="create"/>
+      <stereotypes xmi:id="_eo43TO3vEeyvMKuFqR3PiA" name="LegacyStyledElement">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c6VDoO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eo43Te3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eo43Tu3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eo43T-3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c6VqsO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_eo43UO3vEeyvMKuFqR3PiA" name="Patient">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c5PegO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eo43Ue3vEeyvMKuFqR3PiA" name="Patient">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c6Xf4O3vEeyvMKuFqR3PiA"/>
+      <keywords xmi:id="_eo43Uu3vEeyvMKuFqR3PiA" keyword="create"/>
+      <stereotypes xmi:id="_eo43U-3vEeyvMKuFqR3PiA" name="StyledElement">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c6bKQO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eo43VO3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eo43Ve3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eo43Vu3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c6Z8Iu3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_eo43V-3vEeyvMKuFqR3PiA" name="Patient">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c5PegO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eo43WO3vEeyvMKuFqR3PiA" name="name">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c6YG8O3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eo43We3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eo43Wu3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eo43W-3vEeyvMKuFqR3PiA" name="profession">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c6YG8e3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eo43XO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eo43Xe3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eo43Xu3vEeyvMKuFqR3PiA" name="complaint">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c6YuAO3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eo43X-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eo43YO3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_epoeEO3vEeyvMKuFqR3PiA" name="SecurityConfiguration" associationsOut="_epn3AO3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_c6h38O3vEeyvMKuFqR3PiA"/>
+    <visualProperties xmi:id="_epoeEe3vEeyvMKuFqR3PiA" position="-424.0,-6.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_epoeEu3vEeyvMKuFqR3PiA" name="LegacyStyledElement">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c6kUMO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_epoeE-3vEeyvMKuFqR3PiA" name="Annotations">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c6usQO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <visibility xmi:id="_epoeFO3vEeyvMKuFqR3PiA" label="+"/>
+    <attributes xmi:id="_epoeFe3vEeyvMKuFqR3PiA" name="userService">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dfN5YO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_epoeFu3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dfPHgO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_epoeF-3vEeyvMKuFqR3PiA" label="-"/>
+      <cardinality xmi:id="_epoeGO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_eppFIO3vEeyvMKuFqR3PiA" name="UserService">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c9GDwO3vEeyvMKuFqR3PiA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eppFIe3vEeyvMKuFqR3PiA" name="passwordEncoder">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c6liUO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eppFIu3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c6oloO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eppFI-3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eppFJO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eppFJe3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dWiegO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_eppFJu3vEeyvMKuFqR3PiA" name="BCryptPasswordEncoder">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dL3fkO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eppFJ-3vEeyvMKuFqR3PiA" name="authenticationProvider">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c6pzwO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eppFKO3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c6ro8O3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eppFKe3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eppFKu3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eppFK-3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dWjFkO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_eppFLO3vEeyvMKuFqR3PiA" name="DaoAuthenticationProvider">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dKveMe3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eppFLe3vEeyvMKuFqR3PiA" name="configure">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dWurwO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eppFLu3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dXdrkO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eppFL-3vEeyvMKuFqR3PiA" label="#"/>
+      <cardinality xmi:id="_eppFMO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eppFMe3vEeyvMKuFqR3PiA" name="auth">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dWvS0O3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eppFMu3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eppFM-3vEeyvMKuFqR3PiA" name="AuthenticationManagerBuilder">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dLCZIO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eppFNO3vEeyvMKuFqR3PiA" name="configure">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dXe5sO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eppFNe3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dXgu4O3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eppFNu3vEeyvMKuFqR3PiA" label="#"/>
+      <cardinality xmi:id="_eppFN-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eppFOO3vEeyvMKuFqR3PiA" name="http">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dXfgwO3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eppFOe3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eppFOu3vEeyvMKuFqR3PiA" name="HttpSecurity">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dLK8AO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eqA4kO3vEeyvMKuFqR3PiA" name="Exception">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_dWjsoO3vEeyvMKuFqR3PiA"/>
+    <visualProperties xmi:id="_eqA4ke3vEeyvMKuFqR3PiA" position="300.0,55.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eqA4ku3vEeyvMKuFqR3PiA" name="Reference">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dWuEsO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <visibility xmi:id="_eqA4k-3vEeyvMKuFqR3PiA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eqTMcO3vEeyvMKuFqR3PiA" name="User" associationsIn="_eqSlYO3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_c-NeEO3vEeyvMKuFqR3PiA"/>
+    <visualProperties xmi:id="_eqTMce3vEeyvMKuFqR3PiA" position="1086.0,-252.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eqTMcu3vEeyvMKuFqR3PiA" name="Table">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c-gZAO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_eqTMc-3vEeyvMKuFqR3PiA" name="JPA1StyledElement">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c-i1QO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <visibility xmi:id="_eqTMdO3vEeyvMKuFqR3PiA" label="+"/>
+    <attributes xmi:id="_eqTMde3vEeyvMKuFqR3PiA" name="id">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dfpXMO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eqTMdu3vEeyvMKuFqR3PiA" name="PrimaryKey">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dfp-QO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eqTMd-3vEeyvMKuFqR3PiA" name="GeneratedValueMapping">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dfqlUO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eqTMeO3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eqTMee3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_eqTMeu3vEeyvMKuFqR3PiA" name="Long">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dV9Pse3vEeyvMKuFqR3PiA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eqTMe-3vEeyvMKuFqR3PiA" name="firstName">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dfsagO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eqTMfO3vEeyvMKuFqR3PiA" name="Column">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dfzvQO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eqTMfe3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eqTMfu3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_eqTMf-3vEeyvMKuFqR3PiA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eqTMgO3vEeyvMKuFqR3PiA" name="lastName">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_df1kcO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eqTMge3vEeyvMKuFqR3PiA" name="Column">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_df9gQO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eqTMgu3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eqTMg-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_eqTMhO3vEeyvMKuFqR3PiA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eqTMhe3vEeyvMKuFqR3PiA" name="email">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_df_VcO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eqTMhu3vEeyvMKuFqR3PiA" name="StyledElement">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_df_8gO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eqTMh-3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eqTMiO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_eqTMie3vEeyvMKuFqR3PiA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eqTMiu3vEeyvMKuFqR3PiA" name="password">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dgAjkO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eqTMi-3vEeyvMKuFqR3PiA" name="StyledElement">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dgBxsO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eqTMjO3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eqTMje3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_eqTMju3vEeyvMKuFqR3PiA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eqTMj-3vEeyvMKuFqR3PiA" name="roles">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dgCYwO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eqTMkO3vEeyvMKuFqR3PiA" name="FetchStrategy">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dgRpUO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eqTMke3vEeyvMKuFqR3PiA" name="JoinTable">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dg8XsO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eqTMku3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eqTMk-3vEeyvMKuFqR3PiA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_eqTMlO3vEeyvMKuFqR3PiA" name="Role">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c65rYO3vEeyvMKuFqR3PiA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eqTMle3vEeyvMKuFqR3PiA" name="User">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c-nGsO3vEeyvMKuFqR3PiA"/>
+      <keywords xmi:id="_eqTMlu3vEeyvMKuFqR3PiA" keyword="create"/>
+      <stereotypes xmi:id="_eqTMl-3vEeyvMKuFqR3PiA" name="LegacyStyledElement">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c-oU0O3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eqTMmO3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eqTMme3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eqTMmu3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c-o74O3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_eqTMm-3vEeyvMKuFqR3PiA" name="User">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c-NeEO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eqTMnO3vEeyvMKuFqR3PiA" name="User">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dakp8O3vEeyvMKuFqR3PiA"/>
+      <keywords xmi:id="_eqTMne3vEeyvMKuFqR3PiA" keyword="create"/>
+      <stereotypes xmi:id="_eqTMnu3vEeyvMKuFqR3PiA" name="StyledElement">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_damfIe3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eqTMn-3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eqTMoO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eqTzgO3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_damfIO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_eqTzge3vEeyvMKuFqR3PiA" name="User">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c-NeEO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eqTzgu3vEeyvMKuFqR3PiA" name="firstName">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dalRAO3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eqTzg-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eqTzhO3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eqTzhe3vEeyvMKuFqR3PiA" name="lastName">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dalRAe3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eqTzhu3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eqTzh-3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eqTziO3vEeyvMKuFqR3PiA" name="email">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dalRAu3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eqTzie3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eqTziu3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eqTzi-3vEeyvMKuFqR3PiA" name="password">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dal4EO3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eqTzjO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eqTzje3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eqTzju3vEeyvMKuFqR3PiA" name="roles">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dal4Ee3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eqTzj-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eqTzkO3vEeyvMKuFqR3PiA" name="Collection">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dOTIgO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_erBlMO3vEeyvMKuFqR3PiA" name="Role" associationsOut="_eqSlYO3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_c65rYO3vEeyvMKuFqR3PiA"/>
+    <visualProperties xmi:id="_erBlMe3vEeyvMKuFqR3PiA" position="433.0,-5.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_erBlMu3vEeyvMKuFqR3PiA" name="Table">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c8b8cO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_erBlM-3vEeyvMKuFqR3PiA" name="JPA1StyledElement">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c8eYsO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <visibility xmi:id="_erBlNO3vEeyvMKuFqR3PiA" label="+"/>
+    <attributes xmi:id="_erBlNe3vEeyvMKuFqR3PiA" name="id">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dfQVoO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_erBlNu3vEeyvMKuFqR3PiA" name="PrimaryKey">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dfRjwO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_erBlN-3vEeyvMKuFqR3PiA" name="GeneratedValueMapping">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dfSK0O3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_erBlOO3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_erBlOe3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_erBlOu3vEeyvMKuFqR3PiA" name="Long">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dV9Pse3vEeyvMKuFqR3PiA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_erBlO-3vEeyvMKuFqR3PiA" name="name">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dfVOIO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_erBlPO3vEeyvMKuFqR3PiA" name="StyledElement">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dfci4O3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_erBlPe3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_erBlPu3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_erBlP-3vEeyvMKuFqR3PiA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_erBlQO3vEeyvMKuFqR3PiA" name="Role">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c8fm0O3vEeyvMKuFqR3PiA"/>
+      <keywords xmi:id="_erBlQe3vEeyvMKuFqR3PiA" keyword="create"/>
+      <stereotypes xmi:id="_erBlQu3vEeyvMKuFqR3PiA" name="LegacyStyledElement">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c8iDEO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_erBlQ-3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_erBlRO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_erBlRe3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c8iqIO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_erBlRu3vEeyvMKuFqR3PiA" name="Role">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c65rYO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_erBlR-3vEeyvMKuFqR3PiA" name="Role">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c8kfUO3vEeyvMKuFqR3PiA"/>
+      <keywords xmi:id="_erBlSO3vEeyvMKuFqR3PiA" keyword="create"/>
+      <stereotypes xmi:id="_erBlSe3vEeyvMKuFqR3PiA" name="StyledElement">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c8mUgO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_erBlSu3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_erBlS-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_erBlTO3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c8ltce3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_erBlTe3vEeyvMKuFqR3PiA" name="Role">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c65rYO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_erBlTu3vEeyvMKuFqR3PiA" name="name">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c8kfUe3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_erBlT-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_erBlUO3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_etcAAO3vEeyvMKuFqR3PiA" name="UserRepository" associationsIn="_etzzcO3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_c87EoO3vEeyvMKuFqR3PiA"/>
+    <visualProperties xmi:id="_etcnEO3vEeyvMKuFqR3PiA" position="-1152.0,59.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_etcnEe3vEeyvMKuFqR3PiA" name="LegacyStyledElement">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c88SwO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_etcnEu3vEeyvMKuFqR3PiA" name="Annotations">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c9DAcO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <visibility xmi:id="_etcnE-3vEeyvMKuFqR3PiA" label="+"/>
+    <operations xmi:id="_etcnFO3vEeyvMKuFqR3PiA" name="findByEmail">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c89g4O3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_etcnFe3vEeyvMKuFqR3PiA" name="StyledElement">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c9BLQO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_etcnFu3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_etcnF-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_etcnGO3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dNkvwO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_etcnGe3vEeyvMKuFqR3PiA" name="User">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c-NeEO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_etcnGu3vEeyvMKuFqR3PiA" name="email">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c8-H8O3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_etcnG-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_etcnHO3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_etrQkO3vEeyvMKuFqR3PiA" name="UserService" associationsIn="_epn3AO3vEeyvMKuFqR3PiA _euyq4O3vEeyvMKuFqR3PiA" subclassedBy="_et4r8O3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_c9GDwO3vEeyvMKuFqR3PiA"/>
+    <visualProperties xmi:id="_etr3oO3vEeyvMKuFqR3PiA" position="-502.0,-132.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_etr3oe3vEeyvMKuFqR3PiA" label="+"/>
+    <operations xmi:id="_etr3ou3vEeyvMKuFqR3PiA" name="save">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dN1OcO3vEeyvMKuFqR3PiA"/>
+      <visibility xmi:id="_etr3o-3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_etr3pO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_etr3pe3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dN2ckO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_etr3pu3vEeyvMKuFqR3PiA" name="User">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c-NeEO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_etr3p-3vEeyvMKuFqR3PiA" name="registrationDto">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dN11gO3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_etr3qO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_etr3qe3vEeyvMKuFqR3PiA" name="UserRegistrationDto">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c9_boO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_euLm4O3vEeyvMKuFqR3PiA" name="UserServiceImpl" associationsOut="_etzzcO3vEeyvMKuFqR3PiA _et9kce3vEeyvMKuFqR3PiA" generalizations="_et4r8O3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_c9MKYO3vEeyvMKuFqR3PiA"/>
+    <visualProperties xmi:id="_euLm4e3vEeyvMKuFqR3PiA" position="-570.0,202.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_euLm4u3vEeyvMKuFqR3PiA" name="LegacyStyledElement">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c9N_kO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_euLm4-3vEeyvMKuFqR3PiA" name="Annotations">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c9WicO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <visibility xmi:id="_euLm5O3vEeyvMKuFqR3PiA" label="+"/>
+    <attributes xmi:id="_euLm5e3vEeyvMKuFqR3PiA" name="userRepository">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dfeYEO3vEeyvMKuFqR3PiA"/>
+      <visibility xmi:id="_euLm5u3vEeyvMKuFqR3PiA" label="-"/>
+      <cardinality xmi:id="_euLm5-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_euLm6O3vEeyvMKuFqR3PiA" name="UserRepository">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c87EoO3vEeyvMKuFqR3PiA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_euLm6e3vEeyvMKuFqR3PiA" name="passwordEncoder">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dffmMO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_euLm6u3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dfhbYO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_euLm6-3vEeyvMKuFqR3PiA" label="-"/>
+      <cardinality xmi:id="_euLm7O3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_euLm7e3vEeyvMKuFqR3PiA" name="BCryptPasswordEncoder">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dL3fkO3vEeyvMKuFqR3PiA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_euLm7u3vEeyvMKuFqR3PiA" name="loadUserByUsername">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c9Qb0O3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_euLm7-3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c9TfIO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_euLm8O3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_euLm8e3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_euLm8u3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dZhhEO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_euLm8-3vEeyvMKuFqR3PiA" name="UserDetails">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dQgH8e3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_euLm9O3vEeyvMKuFqR3PiA" name="username">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c9RC4O3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_euLm9e3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_euLm9u3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_euLm9-3vEeyvMKuFqR3PiA" name="UserServiceImpl">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dSed4O3vEeyvMKuFqR3PiA"/>
+      <keywords xmi:id="_euLm-O3vEeyvMKuFqR3PiA" keyword="create"/>
+      <stereotypes xmi:id="_euLm-e3vEeyvMKuFqR3PiA" name="StyledElement">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dSiIQO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_euLm-u3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_euLm--3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_euLm_O3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dSg6Ie3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_euLm_e3vEeyvMKuFqR3PiA" name="UserServiceImpl">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c9MKYO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_euLm_u3vEeyvMKuFqR3PiA" name="userRepository">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dSfE8O3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_euLm_-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_euLnAO3vEeyvMKuFqR3PiA" name="UserRepository">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c87EoO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_euLnAe3vEeyvMKuFqR3PiA" name="save">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dSjWYO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_euLnAu3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dSnAwO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_euLnA-3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_euLnBO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_euLnBe3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dSkkgO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_euLnBu3vEeyvMKuFqR3PiA" name="User">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c-NeEO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_euLnB-3vEeyvMKuFqR3PiA" name="registrationDto">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dSjWYe3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_euLnCO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_euLnCe3vEeyvMKuFqR3PiA" name="UserRegistrationDto">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c9_boO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_euLnCu3vEeyvMKuFqR3PiA" name="mapRolesToAuthorities">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dZjWQO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_euLnC-3vEeyvMKuFqR3PiA" name="Generics">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dZx_wO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_euLnDO3vEeyvMKuFqR3PiA" name="StyledElement">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_daB3YO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_euLnDe3vEeyvMKuFqR3PiA" label="-"/>
+      <cardinality xmi:id="_euLnDu3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_euLnD-3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dZym0O3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_euLnEO3vEeyvMKuFqR3PiA" name="Collection">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dOTIgO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_euLnEe3vEeyvMKuFqR3PiA" name="roles">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dZj9UO3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_euLnEu3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_euLnE-3vEeyvMKuFqR3PiA" name="Collection">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dOTIgO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_euqvEO3vEeyvMKuFqR3PiA" name="UsernameNotFoundException">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_dQ0RAO3vEeyvMKuFqR3PiA"/>
+    <visualProperties xmi:id="_eurWIO3vEeyvMKuFqR3PiA" position="-669.0,59.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eurWIe3vEeyvMKuFqR3PiA" name="Reference">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dREvsO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <visibility xmi:id="_eurWIu3vEeyvMKuFqR3PiA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eu8b4O3vEeyvMKuFqR3PiA" name="UserRegistrationController" associationsOut="_euyq4O3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_c9sgsO3vEeyvMKuFqR3PiA"/>
+    <visualProperties xmi:id="_eu8b4e3vEeyvMKuFqR3PiA" position="-670.0,454.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eu8b4u3vEeyvMKuFqR3PiA" name="LegacyStyledElement">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c9u88O3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_eu8b4-3vEeyvMKuFqR3PiA" name="Annotations">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c958EO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <visibility xmi:id="_eu8b5O3vEeyvMKuFqR3PiA" label="+"/>
+    <attributes xmi:id="_eu8b5e3vEeyvMKuFqR3PiA" name="userService">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dfipgO3vEeyvMKuFqR3PiA"/>
+      <visibility xmi:id="_eu8b5u3vEeyvMKuFqR3PiA" label="-"/>
+      <cardinality xmi:id="_eu8b5-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_eu8b6O3vEeyvMKuFqR3PiA" name="UserService">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c9GDwO3vEeyvMKuFqR3PiA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eu8b6e3vEeyvMKuFqR3PiA" name="userRegistrationDto">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c9xZMO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eu8b6u3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c90cgO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eu8b6-3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eu8b7O3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eu8b7e3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dTKaYe3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_eu8b7u3vEeyvMKuFqR3PiA" name="UserRegistrationDto">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c9_boO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eu8b7-3vEeyvMKuFqR3PiA" name="showRegistrationForm">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c91qoO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eu8b8O3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c94G4O3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eu8b8e3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eu8b8u3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eu8b8-3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c924wO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_eu8b9O3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eu8b9e3vEeyvMKuFqR3PiA" name="UserRegistrationController">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dTIlMO3vEeyvMKuFqR3PiA"/>
+      <keywords xmi:id="_eu8b9u3vEeyvMKuFqR3PiA" keyword="create"/>
+      <stereotypes xmi:id="_eu8b9-3vEeyvMKuFqR3PiA" name="StyledElement">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dTKaYO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eu8b-O3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eu8b-e3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eu8b-u3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dTJzUO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_eu8b--3vEeyvMKuFqR3PiA" name="UserRegistrationController">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c9sgsO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eu8b_O3vEeyvMKuFqR3PiA" name="userService">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dTIlMe3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eu8b_e3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eu8b_u3vEeyvMKuFqR3PiA" name="UserService">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c9GDwO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eu8b_-3vEeyvMKuFqR3PiA" name="registerUserAccount">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dTLogO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_eu8cAO3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dTQhAO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_eu8cAe3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_eu8cAu3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eu8cA-3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dTM2oO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_eu8cBO3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eu8cBe3vEeyvMKuFqR3PiA" name="registrationDto">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dTLoge3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_eu8cBu3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_eu8cB-3vEeyvMKuFqR3PiA" name="UserRegistrationDto">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c9_boO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_evcyMO3vEeyvMKuFqR3PiA" name="MainController">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_c9hhkO3vEeyvMKuFqR3PiA"/>
+    <visualProperties xmi:id="_evcyMe3vEeyvMKuFqR3PiA" position="-820.0,167.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_evcyMu3vEeyvMKuFqR3PiA" name="LegacyStyledElement">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c9jWwO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_evcyM-3vEeyvMKuFqR3PiA" name="Annotations">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c9rSkO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <visibility xmi:id="_evcyNO3vEeyvMKuFqR3PiA" label="+"/>
+    <operations xmi:id="_evcyNe3vEeyvMKuFqR3PiA" name="login">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c9jWwe3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_evcyNu3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c9maEO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_evcyN-3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_evcyOO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_evcyOe3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c9lL8O3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_evcyOu3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_evcyO-3vEeyvMKuFqR3PiA" name="home">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c9noMO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_evcyPO3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c9qEcO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_evcyPe3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_evcyPu3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_evcyP-3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c9o2UO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_evcyQO3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_evsp0O3vEeyvMKuFqR3PiA" name="UserRegistrationDto">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_c9_boO3vEeyvMKuFqR3PiA"/>
+    <visualProperties xmi:id="_evsp0e3vEeyvMKuFqR3PiA" position="-631.0,707.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_evsp0u3vEeyvMKuFqR3PiA" label="+"/>
+    <attributes xmi:id="_evsp0-3vEeyvMKuFqR3PiA" name="firstName">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dfkesO3vEeyvMKuFqR3PiA"/>
+      <visibility xmi:id="_evsp1O3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_evsp1e3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_evsp1u3vEeyvMKuFqR3PiA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_evsp1-3vEeyvMKuFqR3PiA" name="lastName">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dfls0O3vEeyvMKuFqR3PiA"/>
+      <visibility xmi:id="_evsp2O3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_evsp2e3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_evsp2u3vEeyvMKuFqR3PiA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_evsp2-3vEeyvMKuFqR3PiA" name="email">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dfmT4O3vEeyvMKuFqR3PiA"/>
+      <visibility xmi:id="_evsp3O3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_evsp3e3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_evsp3u3vEeyvMKuFqR3PiA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_evsp3-3vEeyvMKuFqR3PiA" name="password">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dfniAO3vEeyvMKuFqR3PiA"/>
+      <visibility xmi:id="_evsp4O3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_evsp4e3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_evsp4u3vEeyvMKuFqR3PiA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_evsp4-3vEeyvMKuFqR3PiA" name="UserRegistrationDto">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c-Ce8O3vEeyvMKuFqR3PiA"/>
+      <keywords xmi:id="_evsp5O3vEeyvMKuFqR3PiA" keyword="create"/>
+      <stereotypes xmi:id="_evsp5e3vEeyvMKuFqR3PiA" name="LegacyStyledElement">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c-EUIO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_evsp5u3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_evsp5-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_evsp6O3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c-E7MO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_evsp6e3vEeyvMKuFqR3PiA" name="UserRegistrationDto">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c9_boO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_evsp6u3vEeyvMKuFqR3PiA" name="UserRegistrationDto">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c-GJUO3vEeyvMKuFqR3PiA"/>
+      <keywords xmi:id="_evsp6-3vEeyvMKuFqR3PiA" keyword="create"/>
+      <visibility xmi:id="_evsp7O3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_evsp7e3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_evsp7u3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c-Ilke3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_evsp7-3vEeyvMKuFqR3PiA" name="UserRegistrationDto">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c9_boO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_evsp8O3vEeyvMKuFqR3PiA" name="firstName">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c-GwYO3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_evsp8e3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_evsp8u3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_evsp8-3vEeyvMKuFqR3PiA" name="lastName">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c-HXcO3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_evsp9O3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_evsp9e3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_evsp9u3vEeyvMKuFqR3PiA" name="email">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c-H-gO3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_evsp9-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_evsp-O3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_evsp-e3vEeyvMKuFqR3PiA" name="password">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c-H-ge3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_evsp-u3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_evsp--3vEeyvMKuFqR3PiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ev8hcO3vEeyvMKuFqR3PiA" name="PatientRepository" associationsIn="_ewU78O3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_c-LB0O3vEeyvMKuFqR3PiA"/>
+    <visualProperties xmi:id="_ev9IgO3vEeyvMKuFqR3PiA" position="1091.0,118.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ev9Ige3vEeyvMKuFqR3PiA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ewEdQO3vEeyvMKuFqR3PiA" name="PatientService" associationsIn="_eow7YO3vEeyvMKuFqR3PiA _eoDJsO3vEeyvMKuFqR3PiA" subclassedBy="_ewWxIO3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_c8tCMO3vEeyvMKuFqR3PiA"/>
+    <visualProperties xmi:id="_ewEdQe3vEeyvMKuFqR3PiA" position="720.0,10.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ewEdQu3vEeyvMKuFqR3PiA" label="+"/>
+    <attributes xmi:id="_ewEdQ-3vEeyvMKuFqR3PiA" name="allPatients">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c8vecO3vEeyvMKuFqR3PiA"/>
+      <visibility xmi:id="_ewEdRO3vEeyvMKuFqR3PiA" label="~"/>
+      <cardinality xmi:id="_ewEdRe3vEeyvMKuFqR3PiA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ewEdRu3vEeyvMKuFqR3PiA" name="Patient">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c5PegO3vEeyvMKuFqR3PiA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ewEdR-3vEeyvMKuFqR3PiA" name="savePatient">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dNDLUO3vEeyvMKuFqR3PiA"/>
+      <visibility xmi:id="_ewEdSO3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_ewEdSe3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ewEdSu3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dNDyYO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_ewEdS-3vEeyvMKuFqR3PiA" name="Patient">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c5PegO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ewEdTO3vEeyvMKuFqR3PiA" name="patient">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dNDLUe3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_ewEdTe3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_ewEdTu3vEeyvMKuFqR3PiA" name="Patient">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c5PegO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ewEdT-3vEeyvMKuFqR3PiA" name="updatePatient">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dNGOoO3vEeyvMKuFqR3PiA"/>
+      <visibility xmi:id="_ewEdUO3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_ewEdUe3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ewEdUu3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dNG1se3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_ewEdU-3vEeyvMKuFqR3PiA" name="Patient">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c5PegO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ewEdVO3vEeyvMKuFqR3PiA" name="patient">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dNG1sO3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_ewEdVe3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_ewEdVu3vEeyvMKuFqR3PiA" name="Patient">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c5PegO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ewEdV-3vEeyvMKuFqR3PiA" name="getPatientById">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dYPusO3vEeyvMKuFqR3PiA"/>
+      <visibility xmi:id="_ewEdWO3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_ewEdWe3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ewEdWu3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dYQ80O3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_ewEdW-3vEeyvMKuFqR3PiA" name="Patient">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c5PegO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ewEdXO3vEeyvMKuFqR3PiA" name="id">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dYPuse3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_ewEdXe3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_ewEdXu3vEeyvMKuFqR3PiA" name="Long">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dV9Pse3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ewEdX-3vEeyvMKuFqR3PiA" name="deletePatientById">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dYSK8O3vEeyvMKuFqR3PiA"/>
+      <visibility xmi:id="_ewEdYO3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_ewEdYe3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ewEdYu3vEeyvMKuFqR3PiA" name="id">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dYSyAO3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_ewEdY-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_ewEdZO3vEeyvMKuFqR3PiA" name="Long">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dV9Pse3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ewfUAO3vEeyvMKuFqR3PiA" name="PatientServiceImpl" associationsOut="_ewU78O3vEeyvMKuFqR3PiA" generalizations="_ewWxIO3vEeyvMKuFqR3PiA">
+    <modelElement href="ProjectPBOwebkesSpring.uml#_c-0iEO3vEeyvMKuFqR3PiA"/>
+    <visualProperties xmi:id="_ewfUAe3vEeyvMKuFqR3PiA" position="444.0,217.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ewfUAu3vEeyvMKuFqR3PiA" name="LegacyStyledElement">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c-2XQO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ewfUA-3vEeyvMKuFqR3PiA" name="Annotations">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c-_hMO3vEeyvMKuFqR3PiA"/>
+    </stereotypes>
+    <visibility xmi:id="_ewfUBO3vEeyvMKuFqR3PiA" label="+"/>
+    <attributes xmi:id="_ewfUBe3vEeyvMKuFqR3PiA" name="patientRepository">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dhGvwO3vEeyvMKuFqR3PiA"/>
+      <visibility xmi:id="_ewfUBu3vEeyvMKuFqR3PiA" label="-"/>
+      <cardinality xmi:id="_ewfUB-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <type xmi:id="_ewfUCO3vEeyvMKuFqR3PiA" name="PatientRepository">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c-LB0O3vEeyvMKuFqR3PiA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ewfUCe3vEeyvMKuFqR3PiA" name="getAllPatients">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_c-4McO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_ewfUCu3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c-9sAO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_ewfUC-3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_ewf7EO3vEeyvMKuFqR3PiA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_ewf7Ee3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_c-6BoO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_ewf7Eu3vEeyvMKuFqR3PiA" name="Patient">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c5PegO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ewf7E-3vEeyvMKuFqR3PiA" name="PatientServiceImpl">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dVIwUO3vEeyvMKuFqR3PiA"/>
+      <keywords xmi:id="_ewf7FO3vEeyvMKuFqR3PiA" keyword="create"/>
+      <stereotypes xmi:id="_ewf7Fe3vEeyvMKuFqR3PiA" name="StyledElement">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dVKlgO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_ewf7Fu3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_ewf7F-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ewf7GO3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dVJXYu3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_ewf7Ge3vEeyvMKuFqR3PiA" name="PatientServiceImpl">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c-0iEO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ewf7Gu3vEeyvMKuFqR3PiA" name="patientRepository">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dVIwUe3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_ewf7G-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_ewf7HO3vEeyvMKuFqR3PiA" name="PatientRepository">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c-LB0O3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ewf7He3vEeyvMKuFqR3PiA" name="savePatient">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dVLMkO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_ewf7Hu3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dVMasO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_ewf7H-3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_ewf7IO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ewf7Ie3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dVLzoO3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_ewf7Iu3vEeyvMKuFqR3PiA" name="Patient">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c5PegO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ewf7I-3vEeyvMKuFqR3PiA" name="patient">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dVLMke3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_ewf7JO3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_ewf7Je3vEeyvMKuFqR3PiA" name="Patient">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c5PegO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ewf7Ju3vEeyvMKuFqR3PiA" name="updatePatient">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dVNo0O3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_ewf7J-3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dVPeAO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_ewf7KO3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_ewf7Ke3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ewf7Ku3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dVO28O3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_ewf7K-3vEeyvMKuFqR3PiA" name="Patient">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c5PegO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ewf7LO3vEeyvMKuFqR3PiA" name="patient">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_dVOP4O3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_ewf7Le3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_ewf7Lu3vEeyvMKuFqR3PiA" name="Patient">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c5PegO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ewf7L-3vEeyvMKuFqR3PiA" name="getPatientById">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_dazTcO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_ewf7MO3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_da1IoO3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_ewf7Me3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_ewf7Mu3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ewf7M-3vEeyvMKuFqR3PiA">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_daz6ge3vEeyvMKuFqR3PiA"/>
+        <type xmi:id="_ewf7NO3vEeyvMKuFqR3PiA" name="Patient">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_c5PegO3vEeyvMKuFqR3PiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ewf7Ne3vEeyvMKuFqR3PiA" name="id">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_daz6gO3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_ewf7Nu3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_ewf7N-3vEeyvMKuFqR3PiA" name="Long">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dV9Pse3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ewf7OO3vEeyvMKuFqR3PiA" name="deletePatientById">
+      <modelElement href="ProjectPBOwebkesSpring.uml#_da2WwO3vEeyvMKuFqR3PiA"/>
+      <stereotypes xmi:id="_ewf7Oe3vEeyvMKuFqR3PiA" name="Annotations">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_da3k4O3vEeyvMKuFqR3PiA"/>
+      </stereotypes>
+      <visibility xmi:id="_ewf7Ou3vEeyvMKuFqR3PiA" label="+"/>
+      <cardinality xmi:id="_ewf7O-3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ewf7PO3vEeyvMKuFqR3PiA" name="id">
+        <modelElement href="ProjectPBOwebkesSpring.uml#_da2Wwe3vEeyvMKuFqR3PiA"/>
+        <cardinality xmi:id="_ewf7Pe3vEeyvMKuFqR3PiA" label="1" max="1" min="1"/>
+        <type xmi:id="_ewf7Pu3vEeyvMKuFqR3PiA" name="Long">
+          <modelElement href="ProjectPBOwebkesSpring.uml#_dV9Pse3vEeyvMKuFqR3PiA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
